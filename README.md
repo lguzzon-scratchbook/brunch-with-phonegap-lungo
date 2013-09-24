@@ -1,4 +1,4 @@
-# PhoneGap with lungo.js and brunch.io
+# Brunch with PhoneGap and Lungo
 This is a simple template for [PhoneGap](http://phonegap.com/), [Lungo](http://lungo.tapquo.com/) and [Brunch](http://brunch.io/).
 
 Main languages are [CoffeeScript](http://coffeescript.org/),

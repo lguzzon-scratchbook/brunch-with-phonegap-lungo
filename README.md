@@ -6,7 +6,7 @@ Main languages are [CoffeeScript](http://coffeescript.org/) and [Sass](http://sa
 ### Getting started
 * Install node: Go to http://nodejs.org/ and use their installer
 * Install brunch: `npm install -g brunch`
-* Create project: `brunch new https://github.com/connorblack/brunch-with-phonegap-lungo <project name>`
+* Create project: `brunch new gh:connorblack/brunch-with-phonegap-lungo <project name>`
 * Move into folder: `cd <project name>`
 * Build project and start server: `brunch w -s` or `npm start` (a shortcut for `brunch w -s`)
 * Project should now be running on `http://localhost:3000/`

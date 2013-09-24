@@ -1,12 +1,12 @@
 {
-  "author": "Simeon Bateman",
-  "name": "Brunch-With-Marionette",
-  "description": "MarionetteJS application template for Brunch.io",
+  "author": "Connor Black",
+  "name": "PhoneGap-Template",
+  "description": "PhoneGap template with lungo.js and brunch.io",
   "version": "0.0.1",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git@github.com/simbco/brunch-with-marionette"
+    "url": "https://github.com/connorblack/phonegap-template.git"
   },
   "engines": {
     "node": "0.8.x",

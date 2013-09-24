@@ -2639,7 +2639,7 @@ a .icon-rotate-90:before,a .icon-rotate-180:before,a .icon-rotate-270:before,a .
 .icon-weibo:before{content:"\f18a";}
 .icon-renren:before{content:"\f18b";}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/phonegap-template\/app\/views\/styles\/modules\/neat\/grid\/_grid\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/phonegap-template\/app\/styles\/modules\/neat\/grid\/_grid\.scss}line{font-family:\000032}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

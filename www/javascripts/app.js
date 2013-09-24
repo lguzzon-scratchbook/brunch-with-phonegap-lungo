@@ -97,14 +97,7 @@ Application = (function() {
   function Application() {}
 
   Application.prototype.initialize = function() {
-    Lungo.init({});
-    return this.set_list_height();
-  };
-
-  Application.prototype.set_list_height = function() {
-    var list_height;
-    list_height = ($(window).height()) - ($('.nav').height() + $('.group-bar').height() + $('.footer').height());
-    return $('.list').height(list_height - 51);
+    return Lungo.init({});
   };
 
   return Application;

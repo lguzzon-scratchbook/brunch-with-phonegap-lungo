@@ -1,25 +1,23 @@
 # Brunch with PhoneGap and Lungo
-This is a simple template for [PhoneGap](http://phonegap.com/), [Lungo](http://lungo.tapquo.com/) and [Brunch](http://brunch.io/).
+This is a template for building fast HTML5 mobile apps. It uses [PhoneGap](http://phonegap.com/) for compiling/supporting different devices, [Lungo.js](http://lungo.tapquo.com/) for the mobile application framework, [Brunch.io](http://brunch.io/) for work-flow and application assembly and some of my own optimizations/structure.
 
-Main languages are [CoffeeScript](http://coffeescript.org/),
-[Sass](http://sass-lang.com/) and
-[Handlebars](http://handlebarsjs.com/).
+Main languages are [CoffeeScript](http://coffeescript.org/) and [Sass](http://sass-lang.com/).
 
-## Getting started
-* Install node: Go to http://nodejs.org/ and use their installer or use brew: `brew install node`
+### Getting started
+* Install node: Go to http://nodejs.org/ and use their installer
 * Install brunch: `npm install -g brunch`
-* Clone this project: `brunch new https://github.com/connorblack/phonegap-template <project name>`
+* Create project: `brunch new https://github.com/connorblack/brunch-with-phonegap-lungo <project name>`
 * Move into folder: `cd <project name>`
-* Run and build the project: `brunch w -s` or `npm start` (this is just a shortcut)
-* Project should now be running on `http://localhost:3000`
+* Build project and start server: `brunch w -s` or `npm start` (a shortcut for `brunch w -s`)
+* Project should now be running on `http://localhost:3000/`
 
-## Other
+### Other
 Versions of software the skeleton uses:
 
-* [jQuery](http://jquery.com/)
-* [QuoJS](http://quojs.tapquo.com/)
+* [jQuery](http://jquery.com/) - general web development utilities
+* [QuoJS](http://quojs.tapquo.com/) - awesome mobile gestures
 
-## Legal Stuff (MIT License)
+### Legal Stuff (MIT License)
 
 Enjoy!
 

@@ -1,0 +1,172 @@
+<!doctype html class="scroll-enabled">
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>App Title</title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- CSS Dependencies -->
+  <link rel="stylesheet" href="stylesheets/app.css">  
+</head>
+<body data-device="phone" data-position="fixed">
+
+    <section id="layout" data-transition="slide">
+        <header class="nav">
+            <nav>
+                <a href="#" data-view-aside="features" data-icon="menu"></a>
+
+            </nav>
+
+            <h1 class="title centered">App Title</h1>
+            <nav class="on-right">
+                <a href="#"><span class="icon user"></span></a>
+            </nav>
+            
+        </header>
+
+        <nav data-control="groupbar" class="group-bar">
+            <a href="#" data-view-article="layout-art1" data-label="One" class="active"></a>
+            <a href="#" data-view-article="layout-art2" data-label="Two"></a>
+            <a href="#" data-view-article="layout-art3" data-label="Three"></a>
+        </nav>
+
+        <article id="layout-art1">
+            <div class="form">
+                <fieldset data-icon="search"><span class="icon search"></span>
+                    <input type="search" placeholder="Search...">
+                </fieldset>
+            </div>
+            <article id="" class="list mylist">
+               <ul>
+                    <li class="accept">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="cancel">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="cancel">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="accept">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="accept">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="accept">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="accept">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+               </ul>
+            </article>
+
+        </article>
+
+        <article id="layout-art2">
+            <div class="form">
+                <fieldset data-icon="search"><span class="icon search"></span>
+                    <input type="search" placeholder="Search...">
+                </fieldset>
+            </div>
+            <article id="" class="list">
+               <ul>
+                    <li class="accept">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="accept">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="accept">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="accept">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+               </ul>
+            </article>
+
+        </article>
+        <article id="layout-art3">
+            <div class="form">
+                <fieldset class="search" data-icon="search"><span class="icon search"></span>
+                    <input type="search" placeholder="Search...">
+                </fieldset>
+            </div>
+            <article id="" class="list">
+               <ul>
+                    <li class="cancel">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="cancel">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="cancel">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+                    <li class="cancel">
+                        <strong>List Item</strong>
+                        <small>Description</small>            
+                    </li>
+               </ul>
+            </article>
+        </article>
+
+        <footer class="footer">
+            <h1 class="title centered">Sticky Footer</h1>
+        </footer>
+
+    </section>
+    <aside id="features" data-transition="left" class="show">
+        <header data-title="Slider"><h1 class="title centered"></h1>
+            <nav class="on-right">
+                <a href="#" class="buttons" data-icon="settings"><span class="icon settings"></span></a>
+            </nav>
+        </header>
+
+        <article class="list scroll active">
+            <ul>
+                <!-- Basic Layout -->
+                <li data-view-article="main-article" data-icon="question-sign" class="active">
+                    <strong>One</strong>
+                    <small>Sub Title</small>
+                </li>
+
+                <li data-view-section="layout" data-icon="user">
+                    <div class="tag on-right">5</div>
+                    <strong>Two</strong>
+                </li>
+
+                <!-- List -->
+                <li data-view-article="list" data-icon="list">
+                    <div class="tag on-right">22</div>
+                    <strong>Three</strong>
+                </li>
+            </ul>
+        </article>
+    </aside>
+</body>
+<script src="javascripts/vendor.js"></script>
+<script src="javascripts/app.js"></script>
+<script>require('initialize');</script>
+</html>
+

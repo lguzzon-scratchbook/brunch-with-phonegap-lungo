@@ -10,6 +10,7 @@ Main languages are [CoffeeScript](http://coffeescript.org/) and [Sass](http://sa
 * Move into folder: `cd <project name>`
 * Build project and start server: `brunch w -s` or `npm start` (a shortcut for `brunch w -s`)
 * Project should now be running on `http://localhost:3000/`
+* To get it running with PhoneGap visit http://phonegap.com/install/ to get started
 
 ### Other
 Versions of software the skeleton uses:

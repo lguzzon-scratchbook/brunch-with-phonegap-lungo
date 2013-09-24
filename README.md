@@ -1,26 +1,26 @@
-# Brunch with Marionette
-This is a simple coffee skeleton for [Brunch](http://brunch.io/) which utilizes [MarionetteJS](http://marionettejs.com/).
+# PhoneGap with lungo.js and brunch.io
+This is a simple template for [PhoneGap](http://phonegap.com/), [Lungo](http://lungo.tapquo.com/) and [Brunch](http://brunch.io/).
 
 Main languages are [CoffeeScript](http://coffeescript.org/),
-[Stylus](http://learnboost.github.com/stylus/) and
+[Sass](http://sass-lang.com/) and
 [Handlebars](http://handlebarsjs.com/).
 
 ## Getting started
-* Create new project via executing `brunch new <project name> --skeleton https://github.com/SimbCo/brunch-with-marionette.git` option for the command.
-* Build the project with `brunch b` or `brunch w`.
-* Open the `public/` dir to see the result.
-* Write your code.
+* Install node: Go to http://nodejs.org/ and use their installer or use brew: `brew install node`
+* Install brunch: `npm install -g brunch`
+* Clone this project: `git clone https://github.com/connorblack/phonegap-template.git <project name>`
+* Move into folder: `cd <project name>`
+* Run and build the project: `brunch w -s` or `npm start` (this is just a shortcut)
+* Project should now be running on `http://localhost:3000`
 
 ## Other
 Versions of software the skeleton uses:
 
-* jQuery 1.10.2
-* Backbone 1.0.0
-* Underscore 1.5.1
-* Twitter Bootstrap 2.2.2
-* MarionetteJS 1.0.3
+* [jQuery](http://jquery.com/)
+* [QuoJS](http://quojs.tapquo.com/)
 
-# Legal Stuff (MIT License)
-Template is Copyright (c) 2013 Simeon Bateman; SimB & Company.  We assume no rights or liablities for the code contained.  All libraries are owned and licensed by the ownsers.  Use at your own risk.
+## Legal Stuff (MIT License)
+
+Enjoy!
 
 Distributed under MIT license.

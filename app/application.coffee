@@ -19,7 +19,6 @@ class Application
             ]
         )
 
-        # Initialize your modules independently
     	@init_vent()
 
         # Initialize your views collectively

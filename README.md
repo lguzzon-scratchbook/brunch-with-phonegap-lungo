@@ -3,9 +3,9 @@ This is a template for building fast HTML5 mobile apps. It uses [PhoneGap](http:
 
 I'm pretty opinionated with my modules and views, so if you want to do it your own way just move `app/views/styles` up a directory and delete the `app/views` and `app/modules` folders along with the accompanying code in `application.coffee`.
 
-Contributors welcome!
-
 Main languages are [CoffeeScript](http://coffeescript.org/) and [Sass](http://sass-lang.com/).
+
+Contributors welcome!
 
 ### Getting started
 * Install node: Go to http://nodejs.org/ and use their installer

@@ -1993,13 +1993,13 @@ body > section > article > .empty > strong {
 .icon.folder-close-alt:before{content:"\f114"}
 .icon.folder-open-alt:before{content:"\f115"}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/phonegap-template\/app\/styles\/modules\/neat\/grid\/_grid\.scss}line{font-family:\000032}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/modules\/neat\/grid\/_grid\.scss}line{font-family:\000032}}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-@media -sass-debug-info{filename{}line{font-family:\000034}}
+@media -sass-debug-info{filename{}line{font-family:\000038}}
 body {
   margin: 0;
   padding: 0; }

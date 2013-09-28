@@ -1,110 +1,121 @@
 <!doctype html class="scroll-enabled">
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en">
+<![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en">
+<![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en">
+<![endif]-->
+<!--[if gt IE 8]>
+<html class="no-js" lang="en">
+<![endif]-->
+
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>App Title</title>
-  <meta name="viewport" content="width=device-width">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>
+        App Title
+    </title>
+    <meta name="viewport" content="width=device-width">
 
-  <!-- CSS Dependencies -->
-  <link rel="stylesheet" href="stylesheets/app.css">  
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="stylesheets/app.css">
+
 </head>
-<body data-device="phone" data-position="fixed">
 
+<body data-device="phone" data-position="fixed">
     <section id="layout" data-transition="slide">
         <header class="nav">
             <nav>
-                <a href="#" data-view-aside="features" data-icon="menu"></a>
-
+                <a href="#" data-view-aside="side-drawer" data-icon="menu"></a>
             </nav>
-
-            <h1 class="title centered">App Title</h1>
+            <h1 class="title centered">
+                App Title
+            </h1>
             <nav class="on-right">
                 <a href="#"><span class="icon user"></span></a>
             </nav>
-            
         </header>
-
         <nav data-control="groupbar">
-        <a href="#" data-view-article="layout-art1" data-label="Profile" class="active"></a>
-        <a href="#" data-view-article="layout-art2" data-label="Inbox" data-count="19"></a>
-        <a href="#" data-view-article="layout-art3" data-label="Map"></a>
-        <a href="#" data-view-article="layout-art4" data-label="Settings"></a>
-    </nav>
-
-    <article id="layout-art1"><div class="empty">
-            <span class="icon user"></span>
-            <strong>Profile Empty</strong>
-            <small>When you back a project or follow a friend, their activity will show up here.</small>
-            <button class="anchor" data-label="Please update..." data-async="views/sections/layout.html"></button>
-        </div>
-
-    </article>
-    <article id="layout-art2">
-        <div class="empty">
-            <span class="icon inbox"></span>
-            <strong>Inbox Empty</strong>
-            <small>When you back a project or follow a friend, their activity will show up here.</small>
-        </div>
-    </article>
-    <article id="layout-art3">
-        <div class="empty">
-            <span class="icon comments"></span>
-            <strong>Comments Empty</strong>
-            <small>When you back a project or follow a friend, their activity will show up here.</small>
-        </div>
-    </article>
-    <article id="layout-art4">
-        <div class="empty">
-            <span class="icon cog"></span>
-            <strong>Settings Empty</strong>
-            <small>When you back a project or follow a friend, their activity will show up here.</small>
-        </div>
-    </article>
-
-    <footer>
-        <nav>
-            <a href="#" data-view-article="layout-art1" data-icon="user" class="active"></a>
-            <a href="#" data-view-article="layout-art2" data-icon="inbox" data-count="80"></a>
-            <a href="#" data-view-article="layout-art3" data-icon="comments"></a>
-            <a href="#" data-view-article="layout-art4" data-icon="cog"></a>
+            <a href="#" data-view-article="layout-art1" data-label="Profile" class="active"></a>
+            <a href="#" data-view-article="layout-art2" data-label="Inbox" data-count="19"></a>
+            <a href="#" data-view-article="layout-art3" data-label="Map"></a>
+            <a href="#" data-view-article="layout-art4" data-label="Settings"></a>
         </nav>
-    </footer>
-
-    </section>
-    <aside id="features" data-transition="left" class="show">
-        <header data-title="Slider"><h1 class="title centered"></h1>
-            <nav class="on-right">
-                <a href="#" class="buttons" data-icon="settings"><span class="icon settings"></span></a>
-            </nav>
-        </header>
-
-        <article class="list scroll active">
-            <ul>
-                <!-- Basic Layout -->
-                <li data-view-article="main-article" data-icon="question-sign" class="active">
-                    <strong>One</strong>
-                </li>
-
-                <li data-view-section="layout" data-icon="user">
-                    <div class="tag on-right">5</div>
-                    <strong>Two</strong>
-                </li>
-
-                <!-- List -->
-                <li data-view-article="list" data-icon="list">
-                    <div class="tag on-right">22</div>
-                    <strong>Three</strong>
-                </li>
-            </ul>
+        <article id="layout-art1">
+            <div class="empty">
+                <span class="icon user">
+                </span>
+                <strong>
+                    Profile Empty
+                </strong>
+                <small>
+                    When you back a project or follow a friend, their activity will show up
+                    here.
+                </small>
+                <button class="anchor" data-label="Please update..." data-async="views/sections/layout.html">
+                </button>
+            </div>
         </article>
-    </aside>
+        <article id="layout-art2">
+            <div class="empty">
+                <span class="icon inbox">
+                </span>
+                <strong>
+                    Inbox Empty
+                </strong>
+                <small>
+                    When you back a project or follow a friend, their activity will show up
+                    here.
+                </small>
+            </div>
+        </article>
+        <article id="layout-art3">
+            <div class="empty">
+                <span class="icon comments">
+                </span>
+                <strong>
+                    Comments Empty
+                </strong>
+                <small>
+                    When you back a project or follow a friend, their activity will show up
+                    here.
+                </small>
+            </div>
+        </article>
+        <article id="layout-art4">
+            <div class="empty">
+                <span class="icon cog">
+                </span>
+                <strong>
+                    Settings Empty
+                </strong>
+                <small>
+                    When you back a project or follow a friend, their activity will show up
+                    here.
+                </small>
+            </div>
+        </article>
+        <footer>
+            <nav>
+                <a href="#" data-view-article="layout-art1" data-icon="user" class="active"></a>
+                <a href="#" data-view-article="layout-art2" data-icon="inbox" data-count="80"></a>
+                <a href="#" data-view-article="layout-art3" data-icon="comments"></a>
+                <a href="#" data-view-article="layout-art4" data-icon="cog"></a>
+            </nav>
+        </footer>
+    </section>
 </body>
+
+<!-- JS Dependencies -->
 <script src="javascripts/vendor.js"></script>
 <script src="javascripts/app.js"></script>
-<script>require('initialize');</script>
-</html>
 
+<!-- Start application -->
+<script>
+    require('initialize');
+</script>
+
+</html>

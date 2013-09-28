@@ -91,13 +91,40 @@
   globals.require.brunch = true;
 })();
 require.register("application", function(exports, require, module) {
+/*
+    Application
+    - Main application class
+
+    Responsible for maintaining the communication layer of the modules and views.
+*/
+
 var Application;
 
 Application = (function() {
   function Application() {}
 
   Application.prototype.initialize = function() {
-    return Lungo.init({});
+    Lungo.init({
+      resources: ['templates/asides/side_drawer.html']
+    });
+    this.init_vent();
+    this.init_views();
+    return this.vent.internal.trigger('application_ready');
+  };
+
+  /* Initializers*/
+
+
+  Application.prototype.init_vent = function() {
+    var Vent;
+    Vent = require('./modules/vent/vent');
+    return this.vent = new Vent();
+  };
+
+  Application.prototype.init_views = function() {
+    var MainView;
+    MainView = require('./views/MainView');
+    return this.mainview = new MainView();
   };
 
   return Application;
@@ -116,6 +143,107 @@ application = require('application');
 $(function() {
   return application.initialize();
 });
+
+});
+
+;require.register("modules/user/user", function(exports, require, module) {
+/*
+	User
+    - Maintains all data logic for the user
+*/
+
+var User, app;
+
+app = require('../../application');
+
+module.exports = User = (function() {
+  function User() {
+    this.email = '';
+    this.password = '';
+    this.first_name = '';
+    this.last_name = '';
+  }
+
+  /* Functions*/
+
+
+  User.prototype.fetch_init_data = function() {};
+
+  return User;
+
+})();
+
+});
+
+;require.register("modules/vent/vent", function(exports, require, module) {
+/*
+	Vent
+    - Events wrapper class
+
+	I also usually maintiain socket.io here too if I use it in my backend:
+
+		constructor: () ->
+			@external = io.connect('http://localhost:3000')
+
+	This make for a nice, semantic way to handle events:
+
+		app.vent.internal.on('event', 'function')
+		app.vent.external.on('event', 'function')
+*/
+
+var Vent, app;
+
+app = require('../../application');
+
+module.exports = Vent = (function() {
+  function Vent() {
+    this.internal = LucidJS.emitter();
+  }
+
+  /* Functions*/
+
+
+  return Vent;
+
+})();
+
+});
+
+;require.register("views/MainView", function(exports, require, module) {
+/*
+	MainView
+    - Handles all view logic for the main view (DOM manipulations, etc)
+*/
+
+var MainView, app;
+
+app = require('../application');
+
+module.exports = MainView = (function() {
+  function MainView() {
+    this.register_events();
+  }
+
+  /* Events*/
+
+
+  MainView.prototype.register_events = function() {
+    var _this = this;
+    return app.vent.internal.on('application_ready', function() {
+      return _this.log('application ready');
+    });
+  };
+
+  /* Functions*/
+
+
+  MainView.prototype.log = function(msg) {
+    return console.log(msg);
+  };
+
+  return MainView;
+
+})();
 
 });
 

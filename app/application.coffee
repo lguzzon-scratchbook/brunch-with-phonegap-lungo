@@ -2,7 +2,7 @@
     Application
     - Main application class
 
-    Responsible for maintaining the communication layer of the modules and views.
+    Responsible for initialization and bridging modules and views.
 
 ###
 
@@ -19,18 +19,26 @@ class Application
             ]
         )
 
+        # Initialize your modules independently (easier for configuration)
     	@init_vent()
+        @init_user()
 
         # Initialize your views collectively
     	@init_views()
 
-        # Emit that application is ready, more of an example than anything 
+        # Emit that application is ready - vent example
     	@vent.internal.trigger('application_ready')
 
 
     ### Initializers ###
 
-    # Attaches modules and views to the main application object for decoupled access
+    # Attach objects to the main application for decoupled access
+    # Allows you to require 'application' anywhere in the project and access your modules and views
+
+    # For example:
+    #   app = require 'application'
+    #   app.my_module.module_function()
+    #   app.my_view.view_function()
 
     # Modules
 
@@ -38,6 +46,11 @@ class Application
 
     	Vent = require './modules/vent/vent'
     	@vent = new Vent()
+
+    init_user: () ->
+
+        User = require './modules/user/user'
+        @user = new User()
 
     # Views
 

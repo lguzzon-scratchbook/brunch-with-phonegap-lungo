@@ -9,9 +9,9 @@
 class Application
 
     initialize: () ->
-    	
+        
         # Initialize lungo
-    	Lungo.init(
+        Lungo.init(
 
             # Load your templates here
             resources: [
@@ -20,14 +20,14 @@ class Application
         )
 
         # Initialize your modules independently (easier for configuration)
-    	@init_vent()
+        @init_vent()
         @init_user()
 
         # Initialize your views collectively
-    	@init_views()
+        @init_views()
 
         # Emit that application is ready - vent example
-    	@vent.internal.trigger('application_ready')
+        @vent.internal.trigger('application_ready')
 
 
     ### Initializers ###
@@ -44,8 +44,8 @@ class Application
 
     init_vent: () ->
 
-    	Vent = require './modules/vent/vent'
-    	@vent = new Vent()
+        Vent = require './modules/vent/vent'
+        @vent = new Vent()
 
     init_user: () ->
 
@@ -56,8 +56,8 @@ class Application
 
     init_views: () ->
 
-    	MainView = require './views/MainView'
-    	@mainview = new MainView()
+        MainView = require './views/MainView'
+        @mainview = new MainView()
 
 
 module.exports = new Application()

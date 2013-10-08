@@ -16,6 +16,7 @@ class Application
             # Load your templates here
             resources: [
                 'templates/asides/side_drawer.html'
+                'templates/sections/page_two.html'
             ]
         )
 

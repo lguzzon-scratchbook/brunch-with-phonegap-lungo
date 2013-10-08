@@ -105,7 +105,7 @@ Application = (function() {
 
   Application.prototype.initialize = function() {
     Lungo.init({
-      resources: ['templates/asides/side_drawer.html']
+      resources: ['templates/asides/side_drawer.html', 'templates/sections/page_two.html']
     });
     this.init_vent();
     this.init_user();

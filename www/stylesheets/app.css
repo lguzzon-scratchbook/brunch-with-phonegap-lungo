@@ -2051,10 +2051,11 @@ article {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_layout_one\.sass}line{font-family:\0000314}}
 #layout-art1 .description {
   font-size: 1.1em;
+  color: #26313b !important;
   margin-bottom: 3em;
   font-weight: 300;
   opacity: 0.8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_layout_one\.sass}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_layout_one\.sass}line{font-family:\0000321}}
 #layout-art1 .anchor {
   background-color: #4888d4;
   font-weight: 200 !important; }

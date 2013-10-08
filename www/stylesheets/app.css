@@ -2004,6 +2004,64 @@ body {
   margin: 0;
   padding: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_navbar\.sass}line{font-family:\000032}}
+.nav {
+  background-color: white;
+  box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_navbar\.sass}line{font-family:\000036}}
+  .nav .slider {
+    font-size: 0.6em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_navbar\.sass}line{font-family:\000038}}
+  .nav h1, .nav a {
+    text-shadow: none !important;
+    color: #26313b !important;
+    font-size: 0.6em;
+    opacity: 0.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_navbar\.sass}line{font-family:\0000314}}
+  .nav h1 {
+    font-size: 1em !important;
+    font-weight: 400;
+    color: #26313b !important;
+    opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_groupbar\.sass}line{font-family:\000033}}
+.groupbar a {
+  text-transform: uppercase;
+  font-size: 0.72em;
+  font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_groupbar\.sass}line{font-family:\000037}}
+.groupbar a.active {
+  -webkit-box-shadow: inset 0 -0.3em #4888d4 !important;
+  -moz-box-shadow: inset 0 -0.3em #4888d4 !important;
+  -ms-box-shadow: inset 0 -0.3em #4888d4 !important;
+  -o-box-shadow: inset 0 -0.3em #4888d4 !important;
+  box-shadow: inset 0 -0.4em #4888d4 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_layout_one\.sass}line{font-family:\000033}}
+article {
+  background-color: white !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_layout_one\.sass}line{font-family:\000037}}
+#layout-art1 .welcome {
+  color: #26313b;
+  margin-top: 0.5em;
+  margin-bottom: 0.3em;
+  font-size: 1.5em !important;
+  font-weight: 200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_layout_one\.sass}line{font-family:\0000314}}
+#layout-art1 .description {
+  font-size: 1.1em;
+  margin-bottom: 3em;
+  font-weight: 300;
+  opacity: 0.8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/connorblack\/github\/brunch-with-phonegap-lungo\/app\/views\/styles\/partials\/_layout_one\.sass}line{font-family:\0000320}}
+#layout-art1 .anchor {
+  background-color: #4888d4;
+  font-weight: 200 !important; }
+
+@media -sass-debug-info{filename{}line{font-family:\0000312}}
+article.list {
+  background: #232323 !important; }
 
 
 /*@ sourceMappingURL=app.css.map*/

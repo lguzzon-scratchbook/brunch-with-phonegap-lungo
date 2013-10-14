@@ -10,7 +10,7 @@ Contributors welcome!
 ### Getting started
 * Install node: Go to http://nodejs.org/ and use their installer
 * Install brunch: `npm install -g brunch`
-* Create project: `brunch new gh:connorblack/brunch-with-phonegap-lungo <project name>`
+* Create project: `brunch new gh:connorblack/brunch-with-moby <project name>`
 * Move into folder: `cd <project name>`
 * Install dependencies: `npm install`
 * Build project and start server: `brunch w -s`
@@ -20,7 +20,7 @@ Contributors welcome!
 Also, for in-browser development check out the Dimensions app: http://www.dimensionsapp.com/
 
 ### Other
-Versions of software the skeleton uses:
+Software the skeleton uses:
 
 * [jQuery](http://jquery.com/) - general web development utilities
 * [QuoJS](http://quojs.tapquo.com/) - awesome mobile gestures

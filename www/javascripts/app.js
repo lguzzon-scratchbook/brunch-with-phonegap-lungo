@@ -95,7 +95,7 @@ require.register("application", function(exports, require, module) {
     Application
     - Main application class
 
-    Responsible for maintaining the communication layer of the modules and views.
+    Responsible for initialization and bridging modules and views.
 */
 
 var Application;
@@ -105,9 +105,10 @@ Application = (function() {
 
   Application.prototype.initialize = function() {
     Lungo.init({
-      resources: ['templates/asides/side_drawer.html']
+      resources: ['templates/asides/side_drawer.html', 'templates/sections/page_two.html']
     });
     this.init_vent();
+    this.init_user();
     this.init_views();
     return this.vent.internal.trigger('application_ready');
   };
@@ -119,6 +120,12 @@ Application = (function() {
     var Vent;
     Vent = require('./modules/vent/vent');
     return this.vent = new Vent();
+  };
+
+  Application.prototype.init_user = function() {
+    var User;
+    User = require('./modules/user/user');
+    return this.user = new User();
   };
 
   Application.prototype.init_views = function() {

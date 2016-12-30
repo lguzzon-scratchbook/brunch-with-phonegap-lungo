@@ -17,20 +17,20 @@
     "test": "brunch test"
   },
   "dependencies": {
-    "javascript-brunch": ">= 1.0 < 1.7",
-    "coffee-script-brunch": ">= 1.0 < 1.7",
-    "css-brunch": ">= 1.0 < 1.7",
-    "handlebars-brunch": ">= 1.0 < 1.7",
-    "uglify-js-brunch": ">= 1.0 < 1.7",
-    "clean-css-brunch": ">= 1.0 < 1.7",
-    "auto-reload-brunch": "~1.6.5",
-    "sass-brunch": "~1.7.0",
-    "coffeelint-brunch": "~1.5.0",
-    "imageoptmizer-brunch": "0.0.3",
-    "groundskeeper-brunch": "0.0.3"
+    "javascript-brunch": "2undefined",
+    "coffee-script-brunch": "2undefined",
+    "css-brunch": "2undefined",
+    "handlebars-brunch": "2undefined",
+    "uglify-js-brunch": "2undefined",
+    "clean-css-brunch": "2undefined",
+    "auto-reload-brunch": "~2.7.1",
+    "sass-brunch": "~2.9.0",
+    "coffeelint-brunch": "~2.0.0",
+    "imageoptmizer-brunch": "0.0.6",
+    "groundskeeper-brunch": "0.0.4"
   },
   "license": "BSD",
   "devDependencies": {
-    "intern": "~1.2.1"
+    "intern": "~3.4.2"
   }
 }

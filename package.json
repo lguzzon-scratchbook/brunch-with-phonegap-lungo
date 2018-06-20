@@ -14,7 +14,9 @@
   },
   "scripts": {
     "start": "brunch watch --server",
-    "test": "brunch test"
+    "test": "brunch test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "javascript-brunch": "2undefined",
@@ -27,10 +29,12 @@
     "sass-brunch": "~2.10.3",
     "coffeelint-brunch": "~2.0.0",
     "imageoptmizer-brunch": "0.0.6",
-    "groundskeeper-brunch": "0.0.4"
+    "groundskeeper-brunch": "0.0.4",
+    "snyk": "^1.83.0"
   },
   "license": "BSD",
   "devDependencies": {
     "intern": "~3.4.2"
-  }
+  },
+  "snyk": true
 }
